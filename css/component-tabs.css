@@ -1,0 +1,13 @@
+ona-tabs {
+  display: flex;
+  flex-direction: column;
+}
+
+  ona-tabs .tabs {
+    display: flex;
+    gap: 1rem;
+  }
+
+  ona-tabs .tabs__panel[hidden] {
+        display: none;
+      }
